@@ -10,10 +10,10 @@ uint8 ELECTION_MSG = 1
 uint8 REPLY_MSG = 2
 uint8 LEADER_MSG = 3
 
-# link 
-# The link is a 4-bit data. 
-# In the case of a leader message, it represents the selected path, 
-# and in the case of an election message or a replay message, it represents the connected status. 
+# link
+# The link is a 4-bit data.
+# In the case of a leader message, it represents the selected path,
+# and in the case of an election message or a replay message, it represents the connected status.
 # The bits represent the state of the Main ECU, Sub ECU, Main VCU, and Sub VCU in order from the leading bit.
 # For example:
 # If this message is a reply message with link=0x1010,
