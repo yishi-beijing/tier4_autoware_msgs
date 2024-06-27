@@ -5,7 +5,7 @@ uint8 MAIN_VCU = 2
 uint8 SUB_VCU = 3
 
 # path_info
-# The path_info is a 4-bit data which represents the selected path, 
+# The path_info is a 4-bit data which represents the selected path,
 # The bits represent the state of the Main ECU, Sub ECU, Main VCU, and Sub VCU in order from the leading bit.
 # For example:
 # If path_info=0x1010,
