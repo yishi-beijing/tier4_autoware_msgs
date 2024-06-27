@@ -30,6 +30,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/HazardStatusStamped.msg"
   "msg/ServiceLog.msg"
   "msg/ModeChangeAvailable.msg"
+  "msg/MrmBehavior.msg"
   "msg/MrmBehaviorStatus.msg"
   "msg/MrmState.msg"
   "srv/OperateMrm.srv"
