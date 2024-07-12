@@ -19,7 +19,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/PoseWithCovarianceStamped.srv"
   DEPENDENCIES
     autoware_common_msgs
-    builtin_interfaces
     geometry_msgs
 )
 
