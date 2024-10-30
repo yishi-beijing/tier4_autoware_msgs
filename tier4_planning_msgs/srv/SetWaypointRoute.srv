@@ -3,5 +3,6 @@ geometry_msgs/Pose goal_pose
 geometry_msgs/Pose[] waypoints
 unique_identifier_msgs/UUID uuid
 bool allow_modification
+bool allow_while_using_route
 ---
 autoware_common_msgs/ResponseStatus status
