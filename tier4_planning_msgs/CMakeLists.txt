@@ -19,7 +19,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/AvoidanceDebugFactor.msg"
   "msg/AvoidanceDebugMsg.msg"
   "msg/AvoidanceDebugMsgArray.msg"
-  "msg/ControlPoint.msg"
   "msg/EnableAvoidance.msg"
   "msg/ExpandStopRange.msg"
   "msg/IsAvoidancePossible.msg"
@@ -35,12 +34,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PathPoint.msg"
   "msg/PathPointWithLaneId.msg"
   "msg/PathWithLaneId.msg"
-  "msg/PlanningFactor.msg"
-  "msg/PlanningFactorArray.msg"
   "msg/RerouteAvailability.msg"
   "msg/RouteState.msg"
-  "msg/SafetyFactor.msg"
-  "msg/SafetyFactorArray.msg"
   "msg/Scenario.msg"
   "msg/StopFactor.msg"
   "msg/StopReason.msg"
@@ -57,7 +52,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   DEPENDENCIES
     autoware_common_msgs
     autoware_planning_msgs
-    autoware_perception_msgs
     builtin_interfaces
     geometry_msgs
     nav_msgs

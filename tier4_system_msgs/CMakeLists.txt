@@ -30,7 +30,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/OperationModeAvailability.msg"
   "msg/EmergencyGoalsClearCommand.msg"
   "msg/EmergencyGoalsStamped.msg"
-  "msg/EmergencyHoldingState.msg"
   "msg/EmergencyState.msg"
   "msg/EmergencyStateStamped.msg"
   "msg/HazardStatus.msg"
